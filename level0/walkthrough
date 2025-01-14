@@ -1,0 +1,10 @@
+first we try to execute level0 but seg fault 
+so we try with a value 42 no !  
+so we undertant it's looking for a value 
+with  gdb we disasembe the main $ disas main 
+
+we look for a comparason it's cmp in asm 
+we find only one occurance line    0x08048ed9 <+25>:	cmp    $0x1a7,%eax 
+in hexadecimal in 423 
+so we try that and we arrived in bin/dash it's look like a custome bash even if dash link to sh 
+after we try to just cat /home/user/level1/.pass 
